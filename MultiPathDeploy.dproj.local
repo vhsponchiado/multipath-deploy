@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/01/18 17:03:04.000.302,=C:\Users\dev01\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/27 11:53:27.000.101,=C:\Users\dev01\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/27 15:49:12.000.148,=C:\Users\dev01\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/27 15:51:33.000.219,=C:\Users\dev01\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/27 15:53:58.000.651,=C:\Users\dev01\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/27 16:08:22.000.795,=C:\Users\dev01\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/03/28 15:53:36.000.591,=C:\Users\dev01\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/03/31 13:17:52.000.263,=C:\Users\dev01\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/04/04 15:37:49.000.481,=C:\Users\dev01\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/02/26 13:03:17.000.605,=C:\Users\dev01\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/08/30 11:08:46.000.842,=C:\Users\dev01\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/08/30 11:10:37.000.523,=C:\Users\dev01\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/08/30 11:12:13.000.632,C:\Users\dev01\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\dev01\Desktop\devops\UnitMain.pas</Transaction>
+    <Transaction>2024/08/30 11:12:13.000.632,C:\Users\dev01\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\dev01\Desktop\devops\UnitMain.dfm</Transaction>
+    <Transaction>2024/08/30 13:17:39.000.931,C:\Users\dev01\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\dev01\Documents\Embarcadero\Studio\Projects\DeployExePaths.dproj</Transaction>
+    <Transaction>2024/08/30 13:17:55.000.562,C:\Users\dev01\Documents\Embarcadero\Studio\Projects\DeployExePaths.dproj=C:\Users\dev01\Documents\Embarcadero\Studio\Projects\MultiPathDeploy.dproj</Transaction>
+    <Transaction>2024/08/30 13:18:00.000.924,C:\Users\dev01\Documents\Embarcadero\Studio\Projects\MultiPathDeploy.dproj=C:\Users\dev01\Desktop\devops\MultiPathDeploy.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
