@@ -99,8 +99,10 @@ var
   SourceFilePath: string;
   DestinationFolders: TStringList;
   DestinationFilePath: string;
+  RenamedFilePath: string;
   i: Integer;
   IniFileName: string;
+  DateTimeSuffix: string;
 begin
   SourceFilePath := edtFilePath.Text;
 
@@ -133,9 +135,31 @@ begin
           Continue; // Continua para o próximo destino
         end;
 
+        // Verifica se o arquivo de destino já existe
+        if TFile.Exists(DestinationFilePath) then
+        begin
+          // Cria um sufixo com a data e hora atual
+          DateTimeSuffix := FormatDateTime('_yyyymmdd_hhnnss', Now);
+
+          // Renomeia o arquivo existente adicionando o sufixo de data e hora
+          RenamedFilePath := TPath.Combine(DestinationFolders[i],
+            TPath.GetFileNameWithoutExtension(DestinationFilePath) + DateTimeSuffix + TPath.GetExtension(DestinationFilePath));
+
+          try
+            // Renomeia o arquivo existente
+            TFile.Move(DestinationFilePath, RenamedFilePath);
+          except
+            on E: Exception do
+            begin
+              ShowMessage('Erro ao renomear o arquivo existente: ' + E.Message);
+              Continue;
+            end;
+          end;
+        end;
+
         try
-          // Copia o arquivo
-          TFile.Copy(SourceFilePath, DestinationFilePath, True); // True para substituir o arquivo se já existir
+          // Copia o arquivo para o destino, mantendo o nome original
+          TFile.Copy(SourceFilePath, DestinationFilePath, False); // False, pois não vamos substituir
           FTransferredFiles.Add(DestinationFilePath); // Adiciona o caminho do arquivo transferido à lista
         except
           on E: Exception do

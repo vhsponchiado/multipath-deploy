@@ -97,11 +97,11 @@ object Form1: TForm1
     OnClick = btnSearchConfigClick
   end
   object OpenDialog: TOpenDialog
-    Left = 246
-    Top = 237
+    Left = 68
+    Top = 240
   end
   object OpenDialogConfig: TOpenDialog
-    Left = 375
-    Top = 237
+    Left = 189
+    Top = 240
   end
 end
